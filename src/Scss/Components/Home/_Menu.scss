@@ -1,0 +1,22 @@
+.navbar {
+    height: 69px;
+    border: 1px solid $corporate-color;
+}
+
+#login-button {
+    width: 84px;
+    height: 45px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+#register-button {
+    width: 132px;
+    height: 47px;
+    color: $corporate-color;
+    box-shadow: 1px 1px 5px $corporate-color;
+    border-radius: 8px;
+
+}

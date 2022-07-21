@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin button-property {
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: 800;
+}
+
+.header-title {
+    margin-top: 271px;
+
+    h3 {
+        font-weight: 800;
+        width: 863px;
+        font-size: 58px;
+        text-align: center;
+    }
+}
+
+#demo-button {
+    width: 272px;
+    @include button-property;
+
+    height: 74px;
+
+}
+
+#download-button {
+    width: 194px;
+    height: 74px;
+    color: $corporate-color;
+    background-color: transparent;
+    @include button-property;
+    box-shadow: 1px 1px 5px solid $corporate-color;
+
+}

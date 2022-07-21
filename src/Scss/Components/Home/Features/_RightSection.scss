@@ -1,0 +1,20 @@
+.Right-Section {
+    width: 280px;
+}
+
+.card {
+    @include card;
+
+    img {
+        @include card-logo;
+    }
+
+    h4 {
+        @include card-title;
+    }
+
+    h5 {
+        @include card-description;
+    }
+
+}
