@@ -1,0 +1,33 @@
+.faq {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    // width: 1440px;
+    background-color: blue;
+
+    h5 {
+        @include font;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    h3 {
+        @include font;
+        color: white;
+        font-size: 48px;
+        font-weight: 800;
+    }
+}
+
+#Accordion {
+    width: 1216px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% auto;
+}
+
+#Acordion-item {
+    flex: 1 1 592px;
+    margin: 7px;
+}

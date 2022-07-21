@@ -1,0 +1,12 @@
+.teams {
+    width: 1178px;
+    margin: 5% auto;
+    text-align: center;
+
+    h2 {
+        @include font;
+        color: $corporate-color;
+        font-size: 32px;
+        font-weight: 600;
+    }
+}

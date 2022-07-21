@@ -1,0 +1,29 @@
+.Counter {
+    display: flex;
+    flex-direction: row;
+    width: 1128px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* padding: 0%; */
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: 0px auto;
+
+    .counter-body {
+        h3 {
+            @include font;
+            font-size: 40px;
+            font-weight: 800;
+            text-align: center;
+            color: $corporate-color;
+        }
+
+        h5 {
+            @include font;
+            font-size: 24px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+}

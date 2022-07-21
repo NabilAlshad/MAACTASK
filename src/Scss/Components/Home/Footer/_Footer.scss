@@ -1,0 +1,51 @@
+.footer {
+    background-image: url('../../../../Assets/Footers.png');
+    background-size: cover;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    text-align: center;
+
+    .footer-head {
+        width: 516px;
+        margin: 2% auto;
+
+        p {
+            @include font;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+
+    .socials {
+        width: 200px;
+        display: flex;
+        gap: 15%;
+        margin: 3% auto;
+    }
+
+    .copyright {
+        margin-top: 8%;
+
+        hr {
+            background-color: #0D3166;
+            width: 1216px;
+            border: 1px solid #0D3166;
+            margin: 0% auto;
+        }
+
+        p {
+            @include font;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 700;
+            margin-top: 5%;
+
+            span {
+                color: red;
+                @include font;
+            }
+        }
+    }
+}

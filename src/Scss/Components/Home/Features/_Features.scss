@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 280px;
+    // width: 280px;
 }
 
 .features-title {
@@ -31,4 +31,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background: url('../../../../Assets/Ellipse\ 40.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }

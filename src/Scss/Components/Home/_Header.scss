@@ -7,6 +7,7 @@
 @mixin button-property {
     font-size: 20px;
     border-radius: 8px;
+    @include font;
     font-weight: 800;
 }
 
@@ -17,6 +18,7 @@
         font-weight: 800;
         width: 863px;
         font-size: 58px;
+        @include font;
         text-align: center;
     }
 }

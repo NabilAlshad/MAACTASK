@@ -1,5 +1,11 @@
 $corporate-color: #0052CC;
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+@mixin font {
+    font-family: 'Manrope', sans-serif;
+
+}
 
 @mixin card {
     display: flex;
@@ -8,7 +14,6 @@ $corporate-color: #0052CC;
     margin-bottom: 30%;
     border: none;
     background-color: transparent;
-
     width: 280px;
 
 }
@@ -27,6 +32,7 @@ $corporate-color: #0052CC;
 @mixin card-title {
     font-size: 26px;
     font-weight: 800;
+    @include font;
     width: 253px;
     text-align: end;
 }
@@ -35,6 +41,7 @@ $corporate-color: #0052CC;
     width: 270px;
     font-size: 16px;
     // text-align: center;
+    @include font;
     text-align: end;
     font-weight: 400;
 }
