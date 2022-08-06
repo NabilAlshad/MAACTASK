@@ -1,0 +1,24 @@
+.login-form {
+    width: 608px;
+
+    input {
+        width: 608px;
+        height: 56px;
+        @include font;
+    }
+
+    button.btn.btn-primary {
+        width: 608px;
+        height: 72px;
+        @include font;
+        font-size: 20px;
+        margin-top: 2%;
+        font-weight: 800;
+
+    }
+
+    p {
+        margin-top: 5%;
+        text-align: center;
+    }
+}

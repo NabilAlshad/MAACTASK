@@ -7,13 +7,20 @@
     width: 84px;
     height: 45px;
     border-radius: 8px;
-    font-weight: 500;
-    @include font;
-    font-size: 14px;
+
+    a {
+        font-weight: 500;
+        @include font;
+        font-size: 14px;
+        text-decoration: none;
+        color: white
+    }
+
 
 }
 
 #register-button {
+
     @include font;
     width: 132px;
     height: 47px;
@@ -21,4 +28,11 @@
     box-shadow: 1px 1px 5px $corporate-color;
     border-radius: 8px;
 
+    a {
+        font-weight: 500;
+        @include font;
+        font-size: 14px;
+        text-decoration: none;
+        color: $corporate-color;
+    }
 }
